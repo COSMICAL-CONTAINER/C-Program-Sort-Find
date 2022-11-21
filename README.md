@@ -10,3 +10,5 @@ advantage：
 2.You can choose not to change the original data, Only return one void* pointer array array, we can traversed it in order, it is the element after the order.
 
 ![code of sort.h](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/include.png)
+![struct](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/struct.png)
+![sort](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/sort.png)
