@@ -12,3 +12,4 @@ advantage：
 ![code of sort.h](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/include.png)
 ![struct](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/struct.png)
 ![sort](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/sort.png)
+![result](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/result.png)
