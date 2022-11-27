@@ -15,4 +15,5 @@ advantage：
 ![result](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/result.png)
 
 So we can use Sort Function and BinarySearch.
+
 ![BinarySearch](https://github.com/COSMICAL-CONTAINER/C-Program-Sort-Find/blob/main/Pic/BinarySearch.png)
