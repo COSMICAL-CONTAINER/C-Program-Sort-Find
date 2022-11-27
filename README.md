@@ -13,3 +13,6 @@ advantage：
 ![struct](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/struct.png)
 ![sort](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/sort.png)
 ![result](https://github.com/COSMICAL-CONTAINER/C-Program-Sort/blob/main/Pic/result.png)
+
+So we can use Sort Function and BinarySearch.
+![BinarySearch](https://github.com/COSMICAL-CONTAINER/C-Program-Sort-Find/blob/main/Pic/BinarySearch.png)
