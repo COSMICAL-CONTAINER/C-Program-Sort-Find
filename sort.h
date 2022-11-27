@@ -1,5 +1,5 @@
-#ifndef __sort_
-#define __sort_
+#ifndef __sort_H
+#define __sort_H
 
 #define bool char
 #define True 1
@@ -9,7 +9,7 @@
 #define FatalError( Str )   fprintf( stderr, "%s\n", Str ), exit( 1 )
 #define GetVarName(var) (#var)
 
-#define MAXSIZE 15
+#define MAXSIZE 50
 
 typedef enum
 {
@@ -38,5 +38,22 @@ typedef struct
 #define IS_Sort_METHOD(METHOD) ((METHOD) == Sort_Method_Insertionsort) || \
                                 ((METHOD) == Sort_Method_Mergesort) || \
                                 ((METHOD) == Sort_Method_Quicksort)
+
+//插入排序
+void InsertSort( void *A[ ], int N ,bool (*sort_fun)(void *, void *));
+
+//归并排序
+void Merge( void *A[ ], void *TmpArray[ ], int Lpos, int Rpos, int RightEnd, bool (*sort_fun)(void *, void *));
+void MSort( void *A[ ], void *TmpArray[ ], int Left, int Right ,bool (*sort_fun)(void *, void *));
+void Mergesort(unsigned int Element_Size, void *A[ ], int N , bool (*sort_fun)(void *, void *));
+
+//快速排序
+void Swap( void **Lhs, void **Rhs );
+void * Median3( void * A[ ], int Left, int Right, bool (*sort_fun)(void *, void *));
+
+void Qsort(void * A[ ], int Left, int Right, bool (*sort_fun)(void *, void *));
+void Quicksort(void *A[ ], int N , bool (*sort_fun)(void *, void *));
+void copy(char *dest, const void* src, int Element_Size);
+void *Sort(Sort_InitTypeDef* Sort_InitStruct);
 
 #endif

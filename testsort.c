@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include "sort.c"
+#include <stdlib.h>
+#include <string.h>
+#include "sort.h"
 
 struct StudentInfo
 {
@@ -175,6 +177,7 @@ int main()
     Sort_InitStructure.Sort_Size = sizeof(StuInfo) / sizeof(StuInfo[0]);
     Sort_InitStructure.Sort_Method = Sort_Method_Quicksort;
     Sort_InitStructure.Sort_Compare = sort_struct_ID;
+    Sort_InitStructure.Sort_Way = Sort_Way_Change;
     Sort_InitStructure.Sort_Printf = Print_struct;
     Sort(&Sort_InitStructure);
 
