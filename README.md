@@ -1,4 +1,4 @@
-# C-Program-Sort
+# C-Program-Sort&Find
 
 It took me four days to write the code.
 
