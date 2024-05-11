@@ -1,6 +1,5 @@
 # C-Program-Sort&Find
 
-
 It took me four days to write the code.
 
 This is a function similar to the qsort() function of c language. We can enter different types of arrays for sorting
